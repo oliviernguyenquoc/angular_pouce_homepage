@@ -11,3 +11,9 @@ p {
   list-style-type: disc;
   margin-left:15px;
 }
+
+
+h4{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -8,3 +8,76 @@
 .parallax-container .section {
   width: 100%;
 }
+
+#block3parts {
+  height: 100vh;
+  width: 80%;
+  margin-top: 2em;
+  padding-top: 2.5em;
+}
+
+#block2parts {
+  height: 100vh;
+  width: 80%;
+  margin-top: 2em;
+  padding-top: 2.5em;
+}
+
+#block {
+  height: 100vh;
+  width: 80%;
+  margin-top: 1em;
+  padding-top: 2.5em;
+}
+
+#blockFooter {
+  height: 100vh !important;
+  width: 100%;
+}
+
+#index-banner{
+  padding-top: 0em;
+}
+
+.parallax{
+  overflow: hidden;
+}
+	
+.parallax img{
+	display: block;
+    transform: translate3d(-50%, 144px, 0px);
+}
+
+a.twitter-timeline{
+  text-align: center;
+
+}
+
+iframe.twitter-timeline{ 
+  width: 90% !important;
+  height: 50vh !important;
+}
+
+#FAB{
+  position: absolute;
+  top: 88vh;
+  z-index: 100;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*
+.header{
+  margin-top: 2em;
+}
+
+.fp-tableCell {
+  display: block !important;
+}
+
+.slimScrollDiv{
+  min-height: 100vh;
+}
+*/

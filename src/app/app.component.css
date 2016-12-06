@@ -5,3 +5,8 @@ footer.page-footer {
 #core-content {
   min-height: 92vh;
 }
+
+#top {
+  height: 1px;
+  position: absolute;
+}
