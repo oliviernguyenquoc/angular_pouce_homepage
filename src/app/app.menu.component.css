@@ -7,6 +7,18 @@ nav .brand-logo {
   color: #26a69a;
 }
 
-#navbar{
-  position: absolute;
+#navbar-fixed{
+/*  position: absolute;
+  width: 100%;*/
+}
+
+#header-nav-buttons {
+	position: fixed;
+	right: 0px;
+	top: 14px;
+	padding-right: 60px;
+}
+
+nav ul{
+	display: inline-block;
 }
