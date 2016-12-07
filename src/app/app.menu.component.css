@@ -1,15 +1,20 @@
-nav ul a,
-nav .brand-logo {
-  color: #444;
+nav ul{
+	display: inline-block;
+}
+
+nav a{
+	padding: 0 30px;
+	text-transform: uppercase;
+	color: white;
 }
 
 .button-collapse {
   color: #26a69a;
 }
 
-#navbar-fixed{
-/*  position: absolute;
-  width: 100%;*/
+.navbar-fixed{
+  position: fixed;
+  width: 100%;
 }
 
 #header-nav-buttons {
@@ -19,6 +24,16 @@ nav .brand-logo {
 	padding-right: 60px;
 }
 
-nav ul{
-	display: inline-block;
+.btn-connexion{
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	text-transform: none;
+}
+
+.btn-signup{
+	color: black;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	text-transform: none;
 }

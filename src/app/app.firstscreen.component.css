@@ -1,42 +1,14 @@
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: 100vh;
-  color: #26a69a;
+	min-height: 380px;
+	line-height: 0;
+	height: 100vh;
+	color: #26a69a;
+	background: rgba(47,48,54,0.30);
+	border: 1px solid #979797;
 }
   
 .parallax-container .section {
   width: 100%;
-}
-
-#block3parts {
-  height: 100vh;
-  width: 80%;
-  margin-top: 2em;
-  padding-top: 2.5em;
-}
-
-#block2parts {
-  height: 100vh;
-  width: 80%;
-  margin-top: 2em;
-  padding-top: 2.5em;
-}
-
-#block {
-  height: 100vh;
-  width: 80%;
-  margin-top: 1em;
-  padding-top: 2.5em;
-}
-
-#blockFooter {
-  height: 100vh !important;
-  width: 100%;
-}
-
-#index-banner{
-  padding-top: 0em;
 }
 
 .parallax{
@@ -45,17 +17,17 @@
 	
 .parallax img{
 	display: block;
-    transform: translate3d(-50%, 144px, 0px);
+    transform: translate3d(-50%, 300px, 0px);
+    filter:blur(2px);
 }
 
-a.twitter-timeline{
-  text-align: center;
-
+#title{
+	font-size: 80px;
 }
 
-iframe.twitter-timeline{ 
-  width: 90% !important;
-  height: 50vh !important;
+
+#index-banner{
+  padding-top: 100px;
 }
 
 #FAB{

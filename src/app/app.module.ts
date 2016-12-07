@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent, MenuComponent, FirstScreenComponent } from './app.component';
+import { AppComponent, MenuComponent, FirstScreenComponent, RestScreenComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    FirstScreenComponent
+    FirstScreenComponent,
+    RestScreenComponent
   ],
   imports: [
     BrowserModule,

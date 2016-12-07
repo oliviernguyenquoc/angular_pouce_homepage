@@ -15,6 +15,14 @@ export class MenuComponent {}
 })
 export class FirstScreenComponent {}
 
+
+@Component({
+	selector: 'app-restscreen',
+	templateUrl: 'app.restscreen.component.html',
+	styleUrls: ['app.restscreen.component.css']
+})
+export class RestScreenComponent {}
+
 @Component({
 	selector: 'app-root',
 	templateUrl: 'app.component.html',
