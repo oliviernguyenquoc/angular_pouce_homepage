@@ -8,6 +8,11 @@ nav a{
 	color: white;
 }
 
+.brand-logo{
+	padding-left: 60px;
+	padding-top: 6px;
+}
+
 .button-collapse {
   color: #26a69a;
 }

@@ -17,7 +17,7 @@
 	
 .parallax img{
 	display: block;
-    transform: translate3d(-50%, 300px, 0px);
+    transform: translate3d(-50%, 350px, 0px);
     filter:blur(2px);
 }
 
