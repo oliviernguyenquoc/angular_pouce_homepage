@@ -1,0 +1,14 @@
+#block3parts {
+  width: 80%;
+  margin-top: 2em;
+  padding-top: 2.5em;
+}
+
+.review{
+	font-family: Roboto-BoldItalic;
+	font-size: 18px;
+}
+
+.signature{
+	color: #BDBDBD;
+}

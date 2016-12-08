@@ -15,6 +15,12 @@ export class MenuComponent {}
 })
 export class FirstScreenComponent {}
 
+@Component({
+	selector: 'app-review',
+	templateUrl: 'app.review.component.html',
+	styleUrls: ['./app.review.component.css']
+})
+export class ReviewComponent {}
 
 @Component({
 	selector: 'app-restscreen',
