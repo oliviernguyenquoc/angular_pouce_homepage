@@ -17,8 +17,9 @@
 	
 .parallax img{
 	display: block;
-    transform: translate3d(-50%, 350px, 0px);
-    filter:blur(2px);
+	width: 100%;
+/*    transform: translate3d(-50%, 350px, 0px);
+    filter:blur(2px);*/
 }
 
 #title{
@@ -27,7 +28,7 @@
 
 
 #index-banner{
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #FAB{

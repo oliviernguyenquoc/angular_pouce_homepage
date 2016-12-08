@@ -1,20 +1,12 @@
+/* NavBar */
 nav ul{
 	display: inline-block;
 }
 
 nav a{
-	padding: 0 30px;
+	padding: 0 20px;
 	text-transform: uppercase;
 	color: white;
-}
-
-.brand-logo{
-	padding-left: 60px;
-	padding-top: 6px;
-}
-
-.button-collapse {
-  color: #26a69a;
 }
 
 .navbar-fixed{
@@ -22,11 +14,23 @@ nav a{
   width: 100%;
 }
 
+/* Scroll btn */
+.button-collapse {
+  color: #26a69a;
+}
+
+/* Logo */
+.brand-logo{
+	padding-left: 50px;
+	padding-top: 6px;
+}
+
+/* SignUp and LogIn Buttons */
 #header-nav-buttons {
 	position: fixed;
 	right: 0px;
 	top: 14px;
-	padding-right: 60px;
+	padding-right: 50px;
 }
 
 .btn-connexion{
