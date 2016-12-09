@@ -23,6 +23,13 @@ export class FirstScreenComponent {}
 export class ReviewComponent {}
 
 @Component({
+	selector: 'app-signup',
+	templateUrl: 'app.signup.component.html',
+	styleUrls: ['./app.signup.component.css']
+})
+export class SignupComponent {}
+
+@Component({
 	selector: 'app-restscreen',
 	templateUrl: 'app.restscreen.component.html',
 	styleUrls: ['app.restscreen.component.css']

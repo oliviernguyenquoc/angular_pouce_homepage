@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent, MenuComponent, FirstScreenComponent, RestScreenComponent, ReviewComponent } from './app.component';
+import { AppComponent, MenuComponent, FirstScreenComponent, RestScreenComponent, ReviewComponent, SignupComponent } from './app.component';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { AppComponent, MenuComponent, FirstScreenComponent, RestScreenComponent,
     MenuComponent,
     FirstScreenComponent,
     RestScreenComponent,
-    ReviewComponent
+    ReviewComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
